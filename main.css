@@ -1,0 +1,28 @@
+.youtube-thumbnail-container {
+    position: relative;
+    margin-bottom: 10px;
+}
+.youtube-thumbnail {
+    width: 100%;
+}
+.youtube-play-button-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.youtube-play-button-container:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.youtube-play-button-container:hover > * {
+    opacity: 1;
+}
+.youtube-play-button {
+    width: 33%;
+    margin-left: 33%;
+    opacity: .7;
+}
